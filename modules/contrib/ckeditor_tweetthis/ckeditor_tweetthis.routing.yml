@@ -1,7 +1,0 @@
-ckeditor_tweetthis.settings:
-  path: /admin/config/user-interface/ckeditor_tweetthis
-  defaults:
-    _title: 'Site Twitter Profile'
-    _form: \Drupal\ckeditor_tweetthis\Form\CkeditortweetthisForm
-  requirements:
-    _permission: 'administer ckeditor tweetthis'
