@@ -1,0 +1,6 @@
+type: module
+name : Gavias Kiamo Themer
+description : Gavias Kiamo Themer
+package: gavias
+core: '8.x'
+project: 'gavias_hook_themer'

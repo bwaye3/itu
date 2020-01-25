@@ -1,0 +1,31 @@
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+.course-code {
+    font-weight: 600;
+    display: -webkit-box;
+}
+
+  td:nth-of-type(1):before { content: "Cource Code:"; display: inline; position: initial; font-weight: 600;}
+	td:nth-of-type(2):before { content: "Cource:"; display: inline; position: initial; font-weight: 600;}
+	td:nth-of-type(3):before { content: "Classroom:"; position: initial; font-weight: 600;}
+	td:nth-of-type(4):before { content: "Session Dates:"; position: initial; font-weight: 600;}
+	td:nth-of-type(5):before { content: "Time:"; position: initial; font-weight: 600;}
+	td:nth-of-type(6):before { content: "Instructor:"; position: initial; font-weight: 600;}
+	tr:nth-of-type(odd) { background: #fff;}
+ 
+ .gva-view.view-page h4 {
+    text-transform: inherit;
+    text-indent: 0;
+    font-size: 1.25em;
+    margin: 1em 0 0;
+    color: #17609f!important;
+}
+
+}

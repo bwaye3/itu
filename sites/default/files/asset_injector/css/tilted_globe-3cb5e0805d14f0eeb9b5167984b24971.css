@@ -1,0 +1,38 @@
+body div.body-page,
+body.footer-fixed .gva-body-page {
+  padding: 0 0 5px 0 !important;
+}
+
+.column-content, .column-content-inner {
+  background: transparent !important;
+}
+
+.main-page {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.main-page::after {
+  content: "";
+  background: url('/sites/default/files/inline-images/globe_gray.png') no-repeat #f8f8f8;
+  opacity: 0.3;
+  top:15%;
+  left: 20%;
+  bottom: 20%;
+  right: 20%;
+  position: absolute;
+  z-index: -1;
+  background-size: contain;
+  background-position: center top;
+}
+
+.panel,
+.gsc-accordion,
+.panel .panel-heading .panel-title,
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-default > .panel-heading {
+  background-color: transparent !important;
+  border: none !important;
+}

@@ -1,0 +1,410 @@
+.form-wrapper {
+    margin-top: 1em;
+    padding-bottom: 3rem;
+}
+
+.sidebar-inner .block {
+    padding-bottom: 0 !important;
+}
+.partner-wrapper {
+    padding: .5rem .5rem 5rem .5rem !important;
+    background-image: url(/sites/default/files/ITU-landing-pages/SCIENCE_BackgroundImage.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center top!important;
+    border-radius: 10px!important;
+}
+.sidebar-right .block #views-exposed-form-event-calendar-calendar-search-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1268a5;
+    background-image: url(/sites/default/files/ITU-landing-pages/SCIENCE_BackgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+#views-exposed-form-event-calendar-calendar-search-2 label {
+        color: #fff !important;
+}
+#page-main-content {
+    padding-top: 2rem;
+}
+
+.content {
+    margin: 0!important;
+    padding: 0 !important;
+}
+.content-full  { 
+  background: url(/sites/default/files/lp_billboard_cali_residents2_preview.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
+    padding: 0;
+    margin-bottom: 0;
+    display: none;
+}
+.breadcrumbs {
+	position: absolute; display: none;
+}
+
+.nav-tabs {
+    display: none;
+}
+
+.js-pager__items {
+  margin: 0 0 1em 0;
+}
+
+.cal-main-title {
+    margin: .9em 0 0 0 !important;
+}
+
+.js-form-type-select, 
+.js-form-type-textfield {
+    background: #f5f5f5;
+    font-size: .8em;
+    float: left;
+    padding: .65em 2em;
+    margin: 0;
+    width: 100%;
+}
+
+.cal-main-time, 
+.cal-main-location, 
+.main-date-range, 
+.cal-main-date-range {
+    color: #363636 !important;
+}
+
+
+/****** MAIN BODY ********/
+
+h2 {
+    padding: 0 15px 5px 0;
+}
+
+.content-main .widget.gsc-heading .title {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.content-main  .cal-display-location {
+    margin: 0;
+}
+.content-main .cal-display-date {
+    margin: 0;
+}
+
+.content-main .views-element-container h3 {
+  text-align: center;
+}
+
+.content-main .views-element-container h3::before {
+  display: none;
+}
+
+.content-main .pager {
+ margin: 5px 0;
+}
+
+.widget.gsc-heading .title {
+    font-size: 1.75em !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    text-transform: inherit !important;
+}
+
+/**************/
+
+
+h2 {
+  color: inherit;
+  margin: 1.25em 0 0;
+  min-height: 1px;
+  padding: 0 15px 5px 15px;
+  line-height: 1;
+}
+
+h1, .h1 {
+  margin: 1em 0 1em .8em !important
+}
+
+p {
+  font-size: 14px !important;
+  line-height: 1 !important;
+  margin: 0 0 1em !important;
+}
+
+.arrow {
+  margin: 0 !important;
+}
+
+.arrow-move {
+  text-align: right;
+}
+
+.arrow a::before {
+  display: none !important;
+}
+
+.arrow a::after {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  margin: .5em 0 0 .5em !important;
+  content: '\f138';
+  color: #209dad !important;
+  float: right;
+  border-bottom: 1px dashed #ffffff !important;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+
+.arrow a:hover:after {
+  color: #000 !important;
+}
+
+.arrow a:link,
+.arrow a:visited {
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#block-search h3::before {
+  content: "\f1ce" !important;
+  color: #17609f !important;
+  font-family: 'FontAwesome', sans-serif !important;
+  font-size: .85em !important;
+  float: left !important;
+  -webkit-transform: rotate(40deg) !important;
+  -moz-transform: rotate(40deg) !important;
+  -ms-transform: rotate(40deg) !important;
+  transform: rotate(40deg) !important;
+}
+
+#block-search h3 {
+  color: #363636 !important;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 .5em !important;
+}
+
+.block-views-blockevent-calendar-block-6 .form-item {
+  background: transparent !important;
+  padding: .1em 0 0 .5em !important;
+  margin: .25em .5em 0 .25em !important;
+  border: 1px solid transparent !important;
+}
+
+.cal-master-wrapper {
+  margin: 0 2em 2em 0 !important;
+}
+
+.cal-main-wrapper {
+  margin: 1em 0 !important;
+  padding: .3em;
+}
+
+.cal-day {
+  background: #17609f !important;
+}
+
+.cal-header-wrapper {
+  margin: .8em 0 0;
+}
+
+.calendar-calendar td {
+  border: none;
+  color: #363636;
+}
+
+.calendar-calendar {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.days {
+  font-weight: 600 !important;
+}
+
+.gva-body-page input[type="text"] {
+  margin: 0 !important;
+  background: #ffffff !important;
+}
+
+.js-form-item label {
+  display: inline-start;
+  max-width: 100%;
+  margin-bottom: .01em;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  float: left;
+  width: 100% !important;
+}
+
+.js-form-item .form-item-calendar-search lable {
+  padding: 0;
+  margin: 0;
+}
+
+.js-form-item label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: .01em;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  
+}
+
+.js-form-type-select,
+.js-form-type-textfield {
+  background: transparent !important;
+}
+
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #17609f !important;
+  border: 1px solid #eee;
+  font-size: .8em;
+  min-width: 90px;
+  color: #fff;
+}
+
+.pager li > a:hover {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #17609f !important;
+  border: 1px solid #eee;
+  font-size: .8em;
+  min-width: 90px;
+  color: #fff;
+}
+
+.pager li > a:hover {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #ffffff !important;
+  border: 1px solid #eee;
+  font-size: .8em;
+  min-width: 90px;
+  color: #17609f !important;
+}
+
+.sidebar #views-exposed-form-event-calendar-calendar-search {
+  width: 100% !important;
+}
+
+.sidebar {
+  margin-top: 0 !important;
+  padding-left: 3em !important;
+}
+
+table td.mini a {
+  font-weight: 500 !important;
+}
+
+.views-element-container h3 {
+  margin: 0 0 .5em !important;
+  font-size: 1.25em !important;
+}
+
+.views-element-container h3::before {
+  font-size: .85em !important;
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+
+.add-border,
+#views-exposed-form-event-calendar-calendar-search {
+  border: 1px solid #f1f0f0 !important;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(241, 240, 240);
+  border-bottom-color: #dedede !important;
+  border-bottom-width: 3px !important;
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  color: inherit !important;
+  padding: .3em;
+  width: 100%;
+  margin: 0 !important;
+  display: inline-block;
+}
+
+@media (max-width: 760px) {
+p {
+    font-size: 18px !important;
+}
+
+.arrow a:link, .arrow a:visited {
+    font-size: 17px !important;
+    line-height: 0 !important;
+}
+
+.arrow a::after {
+    margin: 0 0 0 .5em !important;
+}
+
+h1 {
+    font-size: 2em !important;
+    margin: 1em 0 0 26px !important;
+}
+
+}
+
+@media (max-width: 480px) {
+h2 {
+    font-size: 22px !important;
+    padding: .5em 0 !important;
+}
+
+.col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+p {
+    font-size: 18px !important;
+}
+
+.arrow a:link, .arrow a:visited {
+    font-size: 17px !important;
+    line-height: 0 !important;
+}
+
+.arrow a::after {
+    margin: 0 0 0 .5em !important;
+}
+
+h1 {
+    font-size: 2em !important;
+    margin: 1em 0 0 26px !important;
+}
+
+
+}
+
+
+input[type="submit"] {
+    margin: 1em 0 2em 2em !important;
+}
+
+
+

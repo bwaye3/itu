@@ -1,0 +1,3 @@
+sparkmaster:
+  js:
+    js/spark_master.js: {}

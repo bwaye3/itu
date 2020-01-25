@@ -1,0 +1,32 @@
+#modalnode-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 490;
+  background: rgba(0,0,0,.7);
+  text-align: center;
+}
+
+#modalnode-overlay iframe {
+  height: 75vh;
+  width: 40vw;
+  margin: 10vh auto 0 auto;
+  border: none;
+}
+
+#modalnode-overlay a {
+  clear: both;
+  float: left;
+  width: 100%;
+  color: white;
+}
+.close {
+  text-shadow: none;
+  opacity: 1;
+  color: white;
+}

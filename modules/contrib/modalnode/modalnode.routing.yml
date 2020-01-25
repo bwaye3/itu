@@ -1,0 +1,15 @@
+modalnode.modalnode:
+  path: '/admin/config/modalnode'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Modal Node'
+  requirements:
+    _permission: 'access administration pages'
+
+modalnode.admin_settings:
+  path: '/admin/config/modalnode/settings'
+  defaults:
+    _form: '\Drupal\modalnode\Form\ModalnodeSettingsForm'
+    _title: 'Modal Node settings'
+  requirements:
+    _permission: 'access administration pages'

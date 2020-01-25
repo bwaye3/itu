@@ -1,0 +1,242 @@
+.itu-landing .sparks-block-padding {
+  padding: 1.2em 0 2em 1em;
+}
+
+.itu-landing .margin-block p {
+  padding: 1em 1em 2em 1em;
+}
+
+.itu-landing .margin-block h2 {
+  padding: 0 1em;
+}
+
+.itu-landing .gav-help-region {
+  padding: 0;
+}
+
+.itu-landing .gsc-button.extra-large {
+  background: #17609f;
+  border: 1px solid #17609f !important;
+  color: #fff;
+  margin: 2em 0 0;
+}
+
+.itu-landing .gsc-button.extra-large:hover {
+  background: #fff;
+  border: 1px solid #17609f !important;
+  margin: 2em 0 0;
+  color: #17609f !important;
+}
+
+.itu-landing .border-top-left {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.itu-landing .border-top-right {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.itu-landing .border-bottom-left {
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.itu-landing .border-bottom-right {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.itu-landing header.header-v1 {
+  display: none;
+}
+
+.itu-landing.show-header header.header-v1 {
+  display: block !important;
+}
+
+.itu-landing .footer .footer-center {
+}
+
+.itu-landing .node__content {
+  background: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.itu-landing .gva-body-page {
+  padding: 0;
+}
+
+.image-spacer-500 {
+  min-height: 500px;
+}
+
+.image-spacer-600 {
+  min-height: 600px;
+}
+
+.image-spacer-700 {
+  min-height: 700px;
+}
+
+.contain-block {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.itu-landing hr {
+  border: 1px solid #209dad !important;
+  margin: 2em 0 !important;
+}
+
+.itu-landing .block-img img {
+  border: none !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  padding: 0;
+}
+
+.itu-landing h2,
+.itu-landing .h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+.itu-landing h3,
+.itu-landing .h3 {
+  font-size: 2em;
+  font-weight: 600 !important;
+}
+
+.itu-landing h4,
+.itu-landing .h4 {
+  font-size: 1.75em;
+  font-weight: 400 !important;
+}
+
+.itu-landing h5,
+.itu-landing .h5 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.itu-landing .column-content h5 {
+  margin-top: 0;
+}
+
+.itu-landing h6,
+.itu-landing .h6 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.itu-landing .padding-30 {
+  padding: 30px;
+}
+
+.itu-landing .margin-30-0 {
+  margin: 30px 0;
+}
+
+.itu-landing .margin-0-30 {
+  margin: 0 30px;
+}
+
+.itu-landing .margin-15-0 {
+  margin: 15px 0;
+}
+
+.itu-landing #itu-landing-hero-wrapper h2,
+.itu-landing #itu-landing-hero-wrapper h3,
+.itu-landing #itu-landing-hero-wrapper h4,
+.itu-landing #itu-landing-hero-wrapper h5,
+.itu-landing #itu-landing-hero-wrapper h6,
+.itu-landing-hero-copy p {
+  color: #ffffff !important;
+}
+
+.itu-landing #itu-landing-hero-wrapper h2,
+.itu-landing #itu-landing-hero-wrapper h3,
+.itu-landing #itu-landing-hero-wrapper h4,
+.itu-landing #itu-landing-hero-wrapper h5,
+.itu-landing #itu-landing-hero-wrapper h6 {
+  font-weight: 700;
+}
+
+#itu-landing-hero-wrapper {
+  margin: 2rem 0 0 0 !important;
+}
+/* ---- Responsive ---- */
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 760px) {
+  .gsc-column {
+    padding: 0;
+  }
+
+  #itu-landing-hero-wrapper {
+    margin: 0 !important;
+  }
+
+  .bg-size-cover {
+    background-size: contain !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+  }
+
+  #itu-landing-hero {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #itu-landing-hero-wrapper {
+    margin: 0 !important;
+  }
+
+  .itu-landing .border-top-left {
+    border-right: 0 solid #fff;
+  }
+
+  .itu-landing .border-top-right {
+    border-left: 0 solid #fff;
+  }
+
+  .itu-landing .border-bottom-left {
+    border-right: 0 solid #fff;
+    border-top: 0 solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .itu-landing .border-bottom-right {
+    border-top: 0 solid #fff;
+    border-left: 0 solid #fff;
+  }
+
+  .bg-size-cover {
+    background-size: contain !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+  }
+
+  #itu-landing-hero {
+    padding-top: 0 !important;
+  }
+
+  .image-spacer-700 {
+    min-height: 200px !important;
+  }
+
+}
+

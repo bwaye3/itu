@@ -1,0 +1,35 @@
+
+/* ---- Responsive ---- */
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  
+
+  
+}
+
+@media (max-width: 760px) {
+
+.js-form-item-faculty label, 
+.js-form-item-field-first-name-value label, 
+.js-form-item-field-last-name-value label, 
+.js-form-item-field-faculty-title-target-id label, 
+.js-form-item-field-degree-target-id label {
+    float: left;
+  
+  }
+}
+
+@media (max-width: 760px) {
+
+.js-form-item-faculty label, 
+.js-form-item-field-first-name-value label, 
+.js-form-item-field-last-name-value label, 
+.js-form-item-field-faculty-title-target-id label, 
+.js-form-item-field-degree-target-id label {
+    float: left;
+  }
+}

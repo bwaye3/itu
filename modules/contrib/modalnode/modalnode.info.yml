@@ -1,0 +1,6 @@
+name: 'Modal Node'
+description: 'A single, modally-presented node'
+type: module
+core: '8.x'
+version: "8.x-1.0"
+configure: modalnode.settings

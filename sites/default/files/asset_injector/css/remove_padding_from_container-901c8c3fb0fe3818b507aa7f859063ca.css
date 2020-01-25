@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+   .path-schedule #content .container {
+    width: 99%!important;
+  }
+}

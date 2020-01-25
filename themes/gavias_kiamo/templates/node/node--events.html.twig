@@ -1,0 +1,80 @@
+<div class="row partner-wrapper">
+
+    <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="cal-wrapper cal-main-wrapper">
+
+            <div class="cal-day">
+                {% if node.field_date_range.value %}
+                    {{ node.field_date_range.value|date(format='')  ~ '  ' ~ node.field_date_end_range_value|date(format='') }}
+                {% else %}
+                    {{ node.field_date.value|date(format='l') }}
+                {% endif %}
+            </div>
+
+            <div class="cal-month">
+                {% if node.field_date_range.value %}
+                    {{ node.field_date_range.value|date(format='l, F j')  ~ ' - ' ~ node.field_date_end_range_value|date(format='l, F j') }}
+                {% else %}
+                    {{ node.field_date.value|date(format='M') }}
+                {% endif %}
+            </div>
+
+            <div class="cal-main-date">
+                {% if node.field_date_range.value %}
+                    {{ node.field_date_range.value|date(format='')  ~ ' ' ~ node.field_date_end_range_value|date(format='') }}
+                {% else %}
+                    {{ node.field_date.value|date(format='j') }}
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-8 col-sm-8 col-xs-12">
+
+        <header>
+            <div class="align-left">
+                <h2{{ title_attributes.addClass('node__title title') }}>
+                    <span class="cal-main-title" >{{ label }}</span>
+                </h2>
+            </div>
+        </header>
+
+        <div class="cal-main-date-range col-md-12 col-sm-12">
+            {% if node.field_date_range.value %}
+                {{ node.field_date_range.value|date(format='l, F j')  ~ ' - ' ~ node.field_date_end_range_value|date(format='l, F j') }}
+            {% else %}
+                {{ node.field_date.value|date(format='l, F j') }}
+            {% endif %}
+        </div>
+
+        {% if node.field_time %}
+            <div class="cal-main-time col-md-12 col-sm-12">
+                {{ node.field_time.value|default }}
+            </div>
+        {% endif %}
+
+        {% if node.field_location %}
+            <div class="cal-main-location col-md-12 col-sm-12">
+                {{ node.field_location.value|default }}
+            </div>
+        {% endif %}
+
+        {% if node.body %}
+            <div class="cal-main-body-wrapper col-md-12 col-sm-12">
+                {{ node.body.value|raw }}
+            </div>
+        {% endif %}
+
+        {% if node.field_link.0.url %}
+            <div class="cal-main-link col-md-12 col-sm-12">
+                <a class="gsc-button main" href="{{ node.field_link.uri }}">
+                    {{ node.field_link.title }}
+                </a>
+            </div>
+        {% endif %}
+
+    </div>
+
+</div>
+

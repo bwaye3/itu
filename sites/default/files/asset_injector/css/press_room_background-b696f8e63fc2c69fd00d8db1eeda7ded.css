@@ -1,0 +1,59 @@
+.breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb {
+    display: none;
+
+}
+
+.column-content,
+.widget.gsc-block-drupal.remove-margin-on .block {
+    box-shadow: none;
+}
+.content-main-inner {
+  background: #fff;
+}
+h2 a:link, 
+h2 a:visited,
+.post-block .post-title a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #4a4a4a;
+	margin-top: 0px;
+	padding: 0;
+}
+.news-copy-summary {
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-style: normal;
+}
+.white-background .news-copy-summary p {
+	font-family: 'Gotham', sans-serif!important;
+	color: #4a4a4a!important;
+	line-height: 1.67;
+
+margin-bottom: 0;
+
+font-size: 14px;
+
+font-weight: 500;
+}
+.widget.gsc-heading .title {
+    display: none;
+}
+h1, .h1 {
+  margin-top: 6rem!important;
+margin-bottom: 3rem!important;
+    font-size: 3rem!important;
+}
+a:link, 
+a:visited {
+    font-size: 16px;
+}
+
+.itu-landing h1 {
+    margin-top: 6rem;
+}
+
+@media (max-width: 760px) {
+.content-main-inner {
+    background: #f5f5f5;
+}
+}

@@ -1,0 +1,92 @@
+tbody tr:nth-child(2n+1) {
+  background-color: transparent!important;
+}
+tbody tr:first-child {
+   font-weigth:600!important;
+}
+.calendar-calendar .mini-day-off {
+padding: 5px!important;
+border: 1px solid #fff!important;
+}
+.calendar-calendar .mini-day-on {
+    padding: 5px!important;
+    background: #fff !important;
+}
+.calendar-calendar td {
+    border: 1px solid transparent!important;
+    color: #fff!important;
+    padding: 5px!important;
+    background: #1383ad !important;
+}
+.content-main-inner {
+    background: transparent!important;
+}
+
+.calendar-calendar {
+    border-bottom: 1px solid #ccc!important;
+    padding: 0!important;
+    margin: 0!important;
+}
+.breadcrumbs { display: none;}
+
+.gsc-block-view h5, .gva-view.view-page h5 {
+    padding: 0!important;
+    margin: 0!important;
+}
+.event-cal img {
+    min-height: 215px;
+    max-height: 215px;
+}
+h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.event-cal img { transition: all .2s ease-in-out; }
+.event-cal img:hover { transform: scale(1.05); }
+.event-placement {
+    color: #007fb0!important;
+    font-size: 2rem!important;
+    line-height: 1.4!important;
+    font-weight: 600!important;
+    margin-bottom: 7px!important;
+    margin: .25rem 0 0;
+    text-align: left;
+}
+.event-cal .event-link a {
+	background: #23619b;
+	font-family: 'Gotham', sans-serif !important;
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: .9em;
+	padding: .75em 1em;
+	text-decoration: none;
+	max-width: 75%;
+	margin: 2em 0;
+}
+
+.event-date {
+    color: #262626!important;
+    font-size: 3rem!important;
+    line-height: 1!important;
+    font-weight: 300!important;
+    margin-bottom: 7px!important;
+    margin: 1rem 0 0 1.3rem;
+    text-align: left;
+}
+.event-cal {
+  padding-bottom: 5rem;
+}
+.event-cal h4 {
+    font-size: 1.1em;
+  font-weight: 400;
+}
+.event-cal h5 {
+    font-size: .9em;
+  font-weight: 400;
+}
+.views-element-container h3 {
+    text-align: center;
+}

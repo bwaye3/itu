@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Gavias's theme implementation to display a single Drupal page.
+ */
+
+
+<div class="body-page gva-body-page">
+
+	<div role="main" class="main main-page">
+
+		<div id="content" class="content content-full">
+			<div class="container">
+                {% if page.content %}
+					<div class="content-main">
+                        {{ node.field_course_description.value|default }}
+					</div>
+                {% endif %}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+#}
+<style>
+    .ui-dialog .ui-dialog-content {
+        position: relative;
+        border: 0;
+        padding: 2rem;
+        background: #fff !important;
+        overflow: auto;
+        margin: 0 0 1em;
+    }
+    .itu-course-description p {
+        font-family: 'Gotham', sans-serif;
+        color: #252525;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.5em;
+        text-rendering: optimizelegibility;
+        margin: 0 0 1em;
+    }
+</style>
+<div class="itu-course-description">
+<p>{{ content.field_course_description[0] }}</p>
+</div>

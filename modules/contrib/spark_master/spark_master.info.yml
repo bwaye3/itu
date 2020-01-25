@@ -1,0 +1,10 @@
+name: Lead Capture Form
+type: module
+description: 'Add a Spark lead capture forms to a page via block.'
+package: Custom
+version: 8.x
+core: 8.x
+dependencies:
+  - node
+  - block
+

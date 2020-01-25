@@ -1,0 +1,26 @@
+.copyright {
+  background: #eee !important;
+  color: #989797 !important;
+  border-bottom: 0 solid #f38230 !important;
+  border-top: 1px solid #cecece;
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.footer .footer-center {
+  padding: 5em 0 !important;
+  margin-top: 0 !important;
+}
+
+.footer .footer-center .col-xs-12,
+.footer .footer-center .col-sm-12,
+.footer .footer-center .col-md-12,
+.footer .footer-center .col-lg-12 {
+  border: none !important;
+}
+
+.footer-first, .footer-second, .footer-third {
+  min-height: 250px !important;
+  background: rgba(255, 255, 255, 0) !important;
+  box-shadow: none !important;
+}

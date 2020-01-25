@@ -1,0 +1,7 @@
+.column-content-inner .gsc-accordion h4 {
+  text-transform: none !important;
+}
+
+  .panel .panel-heading .panel-title a {
+  text-transform: initial!important;
+}

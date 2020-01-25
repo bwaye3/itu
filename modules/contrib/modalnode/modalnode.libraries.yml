@@ -1,0 +1,11 @@
+modalnode:
+  version: 1.0
+  css:
+    theme:
+      css/modalnode.css: {}
+  js:
+    js/modalnode.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

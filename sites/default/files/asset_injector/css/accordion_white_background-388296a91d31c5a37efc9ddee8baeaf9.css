@@ -1,0 +1,139 @@
+h2 {
+  margin: .25em 0 0 0 !important;
+}
+
+h3 {
+  color: #363636;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1em 0 .5em;
+}
+
+h3:before {
+  content: "\f096";
+  color: #f38230 !important;
+  font-family: 'FontAwesome', sans-serif;
+  font-size: inherit;
+  float: left;
+  margin-left: -1.1em;
+}
+
+#block-facultydepartments {
+  padding-bottom: 2.5em;
+  margin: 0 0 0 .7em;
+}
+
+#block-exposedformduplicate-of-faculty-staffsearch-faculty {
+  padding-top: 1em;
+}
+
+.block-views-blockduplicate-of-faculty-staff-block-6 {
+  margin: 0 0 2em .7em;
+}
+
+.block-views-blockduplicate-of-faculty-staff-block-6 .views-accordion-header:before {
+  color: #f38230 !important;
+  padding-top: .3em;
+}
+
+.block-views-blockduplicate-of-faculty-staff-block-6 .views-accordion-header.ui-accordion-header {
+  margin: 0 0 0 1.1em !important;
+  padding: 0 1.5em !important;
+  background: #fff !important;
+  border: 1px solid #eee !important;
+}
+
+.block .block-title > span {
+  color: #363636;
+  font-size: .75em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 .5em .7em;
+}
+
+.block .block-title > span::before {
+  content: "\f096";
+  color: #f38230 !important;
+  font-family: 'FontAwesome', sans-serif;
+  font-size: inherit;
+  float: left;
+  margin-left: -1.1em;
+}
+
+#block-gavias-kiamo-content {
+  margin: 0 0 0 .9em;
+}
+
+#block-facultydepartments {
+  padding-bottom: 2.5em;
+}
+
+#block-facultydepartments li.menu-item--active-trail > a,
+#block-facultydepartments li.menu-item > a {
+  color: #252525 !important;
+  font-size: 15px !important;
+  margin: 0 0 0 1em;
+  float: left;
+  line-height: 1.9;
+}
+
+#block-facultydepartments li.menu-item--active-trail > a:before,
+#block-facultydepartments li.menu-item > a:before {
+  content: "\f054";
+  color: #f38230 !important;
+  font-family: 'FontAwesome', sans-serif;
+  font-size: inherit;
+  font-weight: 200;
+  padding: 0 .4em 0;
+}
+
+#block-facultydepartments li.menu-item--active-trail > a:hover:before,
+#block-facultydepartments li.menu-item > a:hover:before {
+  color: #000 !important;
+}
+
+.content-main .navigation .gva_menu > li {
+  display: block !important;
+}
+
+.faculty-directory-wrapper p {
+  font-family: 'Gotham', sans-serif;
+  color: #252525;
+  font-size: 14px !important;
+  font-weight: 300;
+  line-height: 1.7em;
+  text-rendering: optimizelegibility;
+  margin: 0 0 .5em;
+}
+
+.faculty-directory-wrapper.csse .views-accordion-header {
+  background: rgba(255, 255, 255, 0.7) !important;
+  margin: 0 0 0 1.1em !important;
+  padding: 0 1.5em !important;
+}
+
+#views-exposed-form-duplicate-of-faculty-staff-search-faculty {
+  padding: 0 0 1em;
+}
+
+.views-accordion-header {
+  background: rgba(255, 255, 255, 0.7) !important;
+  margin: 0 0 0 1.1em !important;
+  padding: 0 1.5em !important;
+}
+
+.gsc-accordion,
+.views-accordion-header.ui-accordion-header,
+.ui-accordion .ui-accordion-header {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border: 1px solid #eee !important;
+  padding: 0 1.5em !important;
+  margin: 0 0 .25em !important;
+}
+
+.views-element-container {
+  margin: 0 0 0 .1em !important;
+}
+
+

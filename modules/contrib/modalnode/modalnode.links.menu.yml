@@ -1,0 +1,13 @@
+modalnode.modalnode:
+  title: 'Modal Node'
+  parent: system.admin_config
+  description: 'Configure Modal Node.'
+  route_name: modalnode.modalnode
+  weight: -1
+
+modalnode.admin_settings:
+  title: Modal Node settings
+  parent: modalnode.modalnode
+  description: 'Configure Modal Node.'
+  route_name: modalnode.admin_settings
+  weight: 0

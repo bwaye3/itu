@@ -1,0 +1,5 @@
+.footer {
+  background: url(/sites/default/files/inline-images/dotted-map.png) repeat-x fixed bottom #eeeeee !important;
+  background-size: contain !important;
+  color: #7e7c7c !important;
+}

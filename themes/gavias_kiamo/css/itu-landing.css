@@ -1,0 +1,201 @@
+.itu-landing .add-blue-background {
+  background: rgba(23, 96, 159, .6);
+}
+
+.itu-landing .remove-background img {
+  border: 1px solid transparent !important;
+  border-bottom-color: transparent !important;
+  border-bottom-width: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  padding: 3em 0 0 2em;
+  max-width: 50%;
+}
+
+.itu-landing .content {
+  margin: 0;
+}
+
+.itu-landing hr {
+  border: 1px solid transparent !important;
+  margin: .5rem 0 !important;
+}
+
+.itu-landing .remove-background-full-logo img {
+  border: 1px solid transparent !important;
+  border-bottom-color: transparent !important;
+  border-bottom-width: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: inherit !important;
+  padding: 1rem 0 0;
+  max-width: 80%;
+}
+
+.itu-landing .wFormContainer {
+  font-family: Lucida Grande, Lucida Sans Unicode, sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  background: rgba(255, 255, 255, 0.9) !important;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.itu-grad-back {
+  background: rgb(46, 101, 157);
+  background: linear-gradient(90deg, rgba(46, 101, 157, 1) 0%, rgba(70, 150, 173, 1) 35%, rgba(85, 162, 154, 1) 100%);
+  border-bottom: 2px solid #fff
+}
+
+#itu-landing-hero-wrapper {
+  margin: 1rem 0;
+}
+
+.itu-landing .gsc-column .navigation .gva_menu {
+  width: 100% !important;
+  display: inline-flex;
+}
+
+.itu-landing .gsc-column .navigation .gva_menu > li > a:before {
+  display: none;
+}
+
+.itu-landing .gva-body-page input[type="text"],
+.itu-landing .gva-body-page input[type="email"],
+.itu-landing .gva-body-page textarea {
+  padding: .5rem 1.5rem !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.itu-landing .wForm .preField {
+  width: 100%;
+  padding-right: 0;
+  text-align: left;
+  font-size: 11px;
+}
+
+.itu-landing .wForm input[type=submit] {
+  background-color: #17609f;
+}
+
+.itu-landing .add-blue-background {
+  background: rgba(23, 96, 159, .85);
+}
+
+.itu-form-wrapper-landing {
+  background-color: transparent !important;
+}
+
+.itu-landing h1 {
+  margin-bottom: 0;
+  margin-top: 1.8rem;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.itu-landing .grad-program h2 {
+  margin: 1rem 0 2rem 2rem
+}
+
+.itu-landing #itu-landing-hero-wrapper .white-background h2 {
+  font-weight: 700;
+  color: #262626 !important;
+}
+
+.itu-landing-h2 h2 {
+  font-size: 1.25em !important;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.itu-landing .gsc-column h3 {
+  font-size: 1.25em !important;
+  line-height: 1.5;
+}
+
+.itu-landing .grad-program h3 {
+  margin: 1rem 0 2.5rem 3rem;
+  font-size: 2.5rem !important;
+}
+
+.itu-landing .column-content-inner h4 {
+  margin: 0 0 1rem !important;
+}
+
+.itu-landing .column-content-inner h4::before {
+  display: none;
+}
+
+.itu-landing .column-content-inner .views-element-container h4 {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.itu-landing .gva-view h5 {
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  margin: .75rem 0 !important;
+  text-transform: uppercase;
+}
+
+.itu-landing .events h6 {
+  margin-top: 0;
+  margin-bottom: .25em;
+}
+
+.itu-landing .grad-program p {
+  margin: 1rem 0 0 3rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.itu-landing .gva-body-page .views-exposed-form select {
+  color: #265c30 !important;
+  width: 45rem !important;
+  font-weight: 600 !important;
+  border: 1px solid #ccc !important;
+  text-transform: uppercase !important;
+  font-size: 1.25rem !important;
+  background: #fff !important;
+}
+
+.itu-landing .views-exposed-form label {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #666;
+  margin: 1rem 0 0;
+}
+
+.itu-landing td {
+  font-weight: 600 !important;
+  color: #666;
+}
+
+.itu-landing h1 {
+  margin-top: 3rem;
+}
+
+.itu-landing table {
+  background: #e7e7e7 !important;
+
+}
+
+.itu-landing table > thead > tr > th {
+  border: 0 solid #17609f !important;
+}
+
+.itu-landing table > tbody > tr > td {
+  border: 0 solid #17609f !important;
+  padding: 1.25rem !important;
+}

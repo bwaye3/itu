@@ -1,0 +1,372 @@
+.cal-main-body-wrapper {
+  background: #ffffff !important;
+}
+
+h1, .h1 {
+  text-transform: uppercase !important;
+  font-size: 2em;
+  letter-spacing: 0;
+}
+
+h2, .h2 {
+  font-weight: 600;
+  text-transform: inherit;
+  font-size: 1.4em;
+}
+
+.cal-main-body-wrapper p {
+  clear: both;
+}
+
+.library ul li {
+  list-style-type: none !important;
+  margin: .5em 0 .75em -30px !important;
+  color: #828282;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.partner-wrapper {
+  background: transparent !important;
+}
+
+.pr-month {
+  padding: 1.5rem 0 0;
+}
+
+#views-exposed-form-duplicate-of-faculty-staff-page-1 label:before {
+  display: none;
+}
+
+div#block-gavias-kiamo-content {
+  padding-bottom: 0 !important;
+}
+
+.itu-landing .wFormContainer {
+  margin-top: 0 !important;
+}
+
+.itu-landing.library h2,
+.itu-landing.library .h2 {
+  text-transform: initial !important;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+h2 {
+  margin: 5PX 0 .25em 0;
+  padding: 0;
+}
+
+.degree-program-body p {
+  color: #ccc;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.itu-landing table > tbody > tr > td {
+  border-bottom: 0 solid #f8f8f8 !important;
+  border-left: 0 solid #4a4a4a !important;
+}
+
+a.button-view-text {
+  color: #136aa6 !important;
+  font-weight: 600 !important;
+  font-size: 1.5em !important;
+  line-height: 1.5 !important;
+  margin: 0 0 0 1em !important;
+}
+
+h2 a:hover {
+  color: #363636;
+  font-weight: 600;
+}
+
+.gsc-image {
+  padding: 0;
+}
+
+div#block-gavias-kiamo-content {
+  padding-bottom: 50px;
+}
+
+.accord-title {
+  font-weight: 600;
+}
+
+.gva-body-page input[type="text"], .gva-body-page input[type="email"], .gva-body-page textarea {
+
+  background-color: #1b599b !important;
+  border: 1px solid transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  margin: 0 0 .5em 0 !important;
+  padding: .5em !important;
+  width: 100% !important;
+  clear: both;
+
+}
+
+.wForm input[type="button"], .wForm input[type="submit"], input[type="submit"] {
+
+  background-color: #01871a !important;
+  border-radius:0 !important;
+  border: none !important;
+  display: inline-block !important;
+  color: #fff !important;
+  font-size: 1.25rem !important;
+  padding: 1em !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham', sans-serif !important;
+  width: inherit !important;
+  margin: 2em 0 0 0 !important;
+
+}
+
+.itu-landing table > tbody > tr > td {
+  border-bottom: 25px solid #f8f8f8 !important;
+}
+
+.post-title a:link {
+  font-size: 1.75em !important;
+  line-height: 1.2;
+}
+
+.post-block .post-created {
+  text-transform: none;
+  position: relative;
+  font-size: 1.5em;
+}
+
+.itu-landing h4 a:link, .itu-landing h4 a:visited {
+  font-size: 1.25em;
+}
+
+.widget.gsc-video-box .video-inner {
+  border-radius: 0;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.p-30 {
+  padding: 30px !important;
+}
+
+.m-10 {
+  margin: 10px !important;
+}
+
+.m-20 {
+  margin: 20px !important;
+}
+
+.m-30 {
+  margin: 30px !important;
+}
+
+.footer .footer-center {
+  background-image: none !important;
+}
+
+.gavias-blockbuilder-content .link-edit-blockbuider {
+  top: 100px;
+  position: fixed;
+}
+
+.wFormContainer input[type="submit"] {
+  background-color: #37bb4f !important;
+  margin: 3em 0 0 0 !important;
+  padding: 1rem 3rem !important;
+  max-width: 250px !important;
+}
+
+.navigation .gva_menu .sub-menu {
+  top: 2.4em;
+}
+
+#header .gva-navigation a:hover {
+  color: #7bc3b8 !important;
+}
+
+#header .navigation .gva_menu .sub-menu > li > a:link,
+#header .navigation .gva_menu .sub-menu > li > a:visited {
+  color: #262626 !important;
+}
+
+#header .navigation .gva_menu .sub-menu > li > a:hover {
+  color: #7bc3b8 !important;
+}
+
+.fa-angle-down {
+  color: #7bc3b8 !important;
+  font-weight: bolder !important;
+  font-size: 120% !important;
+}
+
+#header .gva-navigation a {
+  color: #ffffff !important;
+}
+
+.path-schedule caption {
+  font-size: 1.3em !important;
+  padding: 1rem !important;
+  text-align: left;
+}
+
+.body-slider img {
+  border: none !important;
+  background-color: #f8f8f8 !important;
+  padding: 0;
+}
+
+.button-text p a:link, .button-text p a:visited {
+  padding: 1em 0 .2em !important;
+  display: block;
+}
+
+#modalnode-overlay a {
+  color: #fff !important;
+  background: #000 !important;
+  font-weight: 600 !important;
+  font-size: 35px !important;
+}
+
+.content {
+  margin: 0;
+}
+
+.breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb {
+  margin: 1em 0 0 10px;
+}
+
+.gav-help-region {
+  padding: 0 0 4rem;
+}
+
+h1, .h1 {
+  text-transform: uppercase !important;
+  font-size: 1.75em;
+  letter-spacing: 0;
+}
+
+.degree-program-body {
+  padding: 10px 0 24px 25px;
+}
+
+.itu-landing table > tbody > tr > td {
+  background: #f8f8f8 !important;
+  border-top: 0 !important;
+}
+
+.degree-program-body p {
+  color: #888 !important;
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  max-width: 70% !important;
+}
+
+a.button-view-text-sm {
+  color: #4a4a4a !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+}
+
+a.button-view-text-sm::before {
+  color: #aaa !important;
+}
+
+#degree-program {
+  border-left: 4px solid #4a4a4a !important;
+}
+
+hr {
+  border-top: 1px solid #f8f8f8 !important;
+  margin: 15px 0 !important;
+}
+
+.wForm input[type="button"], .wForm input[type="submit"], input[type="submit"] {
+  margin: 1em 0 2em 0 !important;
+}
+
+.js-form-item-department:after,
+.js-form-item-documents:after,
+.js-form-item-category:after {
+  bottom: 2em !important;
+}
+
+body div.body-page, body.footer-fixed .gva-body-page {
+  padding: 0 0 50px 0 !important;
+}
+
+.lead-copy p:first-of-type,
+.lead-copy p {
+  font-size: 19px !important;
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+}
+
+.itu-faculty .views-accordion-header:before {
+  margin: 1em 2rem 0 -.8em !important;
+}
+
+.gva-body-page input[type="text"], .gva-body-page input[type="email"], .gva-body-page textarea {
+  background-color: #fff !important;
+}
+
+.itu-landing .wFormContainer {
+  margin-top: 1.5em !important;
+}
+
+.itu-landing hr {
+  border: 1px solid transparent !important;
+  margin: 2em 0 !important;
+}
+
+.arrow a {
+  margin: .5em 0;
+  color: #17609f !important
+}
+
+.arrow a::before {
+  color: #aaa !important;
+}
+
+a:link, a:visited {
+  color: #17609f;
+}
+
+@media (max-width: 760px) {
+  #header .navigation .gva_menu .sub-menu > li > a:link,
+  #header .navigation .gva_menu .sub-menu > li > a:visited,
+  #header.header-v1 .navigation .gva_menu > li > a,
+  .fa-remove:before, .fa-close:before, .fa-times:before {
+    text-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .cal-main-body-wrapper {
+    padding: 2em !important;
+  }
+
+  #header .navigation .gva_menu .sub-menu > li > a:link,
+  #header .navigation .gva_menu .sub-menu > li > a:visited {
+    font-size: 14px !important;
+  }
+}

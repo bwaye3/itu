@@ -1,0 +1,32 @@
+<?php
+
+function modalnode_page_attachments(array &$attachments) {
+
+  // Only show on specified pages
+  $pages = \Drupal::config('modalnode.settings')->get('modalnode_pages');
+  $pages = explode("\r\n", $pages);
+
+  $negate = \Drupal::config('modalnode.settings')->get('modalnode_path_negate');
+  $current_path = \Drupal::service('path.current')->getPath();
+
+  $visibility = 0;
+  foreach ($pages as $page) {
+    $path = \Drupal::service('path.alias_manager')->getPathByAlias($page);
+    if (\Drupal::service('path.matcher')->matchPath($current_path, $path)) {
+      $visibility = 1;
+      break;
+    }
+  }
+  $visibility = $negate ? !$visibility : $visibility;
+
+  $modalnode = \Drupal::config('modalnode.settings')->get('modalnode_path');
+
+  if ($visibility && !empty($modalnode)) {
+    $settings = [
+      'timeout' => \Drupal::config('modalnode.settings')->get('modalnode_timeout'),
+      'close_message' => \Drupal::config('modalnode.settings')->get('modalnode_close_message'),
+    ];
+    $attachments['#attached']['library'][] = 'modalnode/modalnode';
+    $attachments['#attached']['drupalSettings']['modalnode'] = $settings;
+  }
+}
