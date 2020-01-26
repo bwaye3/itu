@@ -160,6 +160,7 @@ class ComposerStaticInitDrupal8
             'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+            'CloudFlarePhpSdk\\' => 17,
         ),
         'A' => 
         array (
@@ -483,6 +484,10 @@ class ComposerStaticInitDrupal8
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'CloudFlarePhpSdk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/d8-contrib-modules/cloudflarephpsdk/src',
         ),
         'Asm89\\Stack\\' => 
         array (

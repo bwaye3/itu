@@ -22,6 +22,7 @@
         "drupal/back_to_top": "^1.0",
         "drupal/better_exposed_filters": "^4.0@alpha",
         "drupal/block_class": "^1.1",
+        "drupal/cloudflare": "^1.0@alpha",
         "drupal/config_update": "^1.6",
         "drupal/contact_block": "^1.4",
         "drupal/core-composer-scaffold": "^8.8",
