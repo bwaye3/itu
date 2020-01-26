@@ -39,6 +39,7 @@
         "drupal/imce": "^1.7",
         "drupal/metatag": "^1.11",
         "drupal/pathauto": "^1.6",
+        "drupal/purge": "^3.0@beta",
         "drupal/redirect": "^1.5",
         "drupal/seo_checklist": "^4.1",
         "drupal/social_media": "^1.6",
