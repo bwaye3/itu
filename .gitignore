@@ -4,8 +4,8 @@
 _logo
 _sql
 # Ignore configuration files that may contain sensitive information
-/sites/*/*settings*.php
-/sites/*/*services*.yml
+#/sites/*/*settings*.php
+#/sites/*/*services*.yml
 /sites/development.services.yml
 /sites/default/settings.local.php
 /sites/default/settings.php
@@ -15,23 +15,23 @@ _sql
 
 # Ignore paths that may contain user-generated content
 #/sites/*/files
-/sites/*/public
-/sites/*/private
-/sites/*/files-public
-/sites/*/files-private
-/sites/default/files/php/
-/sites/default/files/css/
-/sites/default/files/js/
-/sites/default/files/tmp/
-/profiles/
+#/sites/*/public
+#/sites/*/private
+#/sites/*/files-public
+#/sites/*/files-private
+#/sites/default/files/php/
+#/sites/default/files/css/
+#/sites/default/files/js/
+#/sites/default/files/tmp/
+#/profiles/
 
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
 /sites/*/tmp
 /sites/*/cache
-/robots.txt
-robots.txt
+#/robots.txt
+#robots.txt
 # Ignore testing related files
 /sites/simpletest
 
@@ -44,7 +44,7 @@ robots.txt
 #/.eslintignoreconfig
 #/.eslintrc.json
 #/.gitattributes
-.htaccess
+#.htaccess
 #/autoload.php
 #/composer.lock
 #/index.php
