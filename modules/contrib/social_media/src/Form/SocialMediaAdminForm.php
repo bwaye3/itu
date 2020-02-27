@@ -83,6 +83,11 @@ class SocialMediaAdminForm extends ConfigFormBase {
         '#default_value' => $config->get('social_media.' . $key . '.api_url'),
       ];
 
+      // Handle some extra help text for the Twitter service.
+      if ($key == 'twitter') {
+        $form[$key][$key . '_api_url']['#description'] = t('To include Hashtags format your URL like this: https://twitter.com/intent/tweet?url=[current-page:url]&text=[text to tweet]&hashtags=[comma separated list of hashtags, with no # on them]');
+      }
+
       $form[$key]['token_browser'] = [
         '#theme' => 'token_tree_link',
         '#token_types' => $token_types,
@@ -246,8 +251,8 @@ class SocialMediaAdminForm extends ConfigFormBase {
       'linkedin' => 'Linkedin',
       'twitter' => 'Twitter',
       'pinterest' => 'Pinterest',
-      'google_plus' => 'Google Plus',
       'email' => 'Email',
+      'whatsapp' => 'whatsapp',
       'print' => 'Print',
     ];
 
