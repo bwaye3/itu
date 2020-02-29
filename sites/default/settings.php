@@ -765,9 +765,9 @@ $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml'
 $settings['file_private_path'] = $app_root . '/sites/default/files/private';
 
 $databases['default']['default'] = array (
-  'database' => 'itu',
-  'username' => 'root',
-  'password' => 'root',
+  'database' => 'itu_itu',
+  'username' => 'itu_root',
+  'password' => '!eG13zz63$$$',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -776,7 +776,3 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_-ok0TiKxn69qdg8W4SfbCu9SkbtyJqz9Y9rLsDz8EDpaLHHK17-SdGxBpTfKl1tAl76V0hh_kQ/sync';
 
-$settings['trusted_host_patterns'] = [
-  '^local\.itu\.edu$',
-  '^localhost$'
-];
